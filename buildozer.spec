@@ -15,16 +15,12 @@ orientation = portrait
 fullscreen = 0
 
 android.permissions = INTERNET
-android.features = android.hardware.touchscreen
 android.api = 31
 android.minapi = 21
 android.ndk = 25b
 android.accept_sdk_license = True
-
-# Otimizações para Flet
-p4a.source_dir = 
-p4a.local_recipes = ./recipes
-android.gradle_dependencies = 
+android.archs = arm64-v8a
+p4a.bootstrap = sdl2 
 
 [buildozer]
 log_level = 2
